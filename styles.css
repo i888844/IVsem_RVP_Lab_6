@@ -1,0 +1,53 @@
+body {
+    display: flex;
+}
+
+.menu-item {
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.menu-item img {
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    display: none;
+    float: left;
+    margin-right: 10px;
+}
+
+#div1 {
+    background-color: red;
+}
+#div2 {
+    background-color: orange;
+}
+#div3 {
+    background-color: yellow;
+}
+#div4 {
+    background-color: green;
+}
+#div5 {
+    background-color: blue;
+}
+
+#block {
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.moved {
+    position: relative;
+    left: -40pt;
+}
